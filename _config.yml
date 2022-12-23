@@ -16,8 +16,8 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", file: "index.html"}
-  - {title: "posts", file: "posts.html"}
+  - {title: "Home", file: "index.md"}
+  - {title: "posts", file: "posts.md"}
   - {title: "中文 Blog", file: "README.md"}
   - {title: "Resume", file: "YindingZhang_Resume_20221005.pdf"}
 
