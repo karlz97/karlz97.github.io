@@ -19,15 +19,14 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md"}
   - {title: "posts", file: "posts.md"}
   - {title: "中文 Blog", file: "README.md"}
-  - {title: "Resume", file: "YindingZhang_Resume_20221005.pdf"}
+  - {title: "Resume", url: "https://karlz97.github.io/YindingZhang_Resume_20221005.pdf"}
+  - {title: "Resume2", url: "/YindingZhang_Resume_20221005.pdf"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yindingzhang@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/karlz97"}
-  - {title: twitter, icon: twitter, url: "/feed.xml"}
-  - {title: weixin, icon: weixin, url: "/feed.xml"}
-  - {title: fa-weixin, icon: fa-weixin, url: "/feed.xml"}
-
+  - {title: twitter, icon: twitter, url: "https://twitter.com/yapiy4"}
+  - {title: weixin, icon: weixin, url: "/wechat.png"}
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
