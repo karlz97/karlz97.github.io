@@ -11,19 +11,20 @@ date_format: "%B %d, %Y"
 show_excerpts: true        # show article excerpts on the home page
 show_frame: false           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
-minimal: true             # use a dark header
+minimal: false             # use a dark header
 
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", file: "index.md"}
+#   - {title: "Home", file: "index.md"}
   - {title: "Posts", file: "posts.md"}
-  - {title: "zh-cn Blog", file: "README.md"}
+  - {title: "zh-cn Blog", url: "/cnblog"}
   - {title: "Resume", url: "/YindingZhang_Resume_20221005.pdf"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yindingzhang@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/karlz97"}
+  - {title: linkedin, icon: linkedin, url: "https://www.linkedin.com/in/yindingzhang97"}
   - {title: twitter, icon: twitter, url: "https://twitter.com/yapiy4"}
   - {title: weixin, icon: weixin, url: "/wechat.png"}
 comments:
